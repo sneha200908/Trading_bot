@@ -334,3 +334,5 @@ This project is developed for educational and demonstration purposes. Use it res
 <p align="center">
   <em>Built with ❤️ for the Python Developer Internship Assignment</em>
 </p>
+#   T r a d i n g _ b o t  
+ 
