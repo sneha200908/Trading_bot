@@ -334,5 +334,36 @@ This project is developed for educational and demonstration purposes. Use it res
 <p align="center">
   <em>Built with ❤️ for the Python Developer Internship Assignment</em>
 </p>
-#   T r a d i n g _ b o t  
+#   T r a d i n g _ b o t 
  
+ 
+
+## Successful Test Results
+
+The application was successfully tested against the Binance Futures Testnet.
+
+### MARKET Order Test
+
+Command:
+
+python -m bot.cli --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
+
+Result:
+
+* Order ID: 13710973495
+* Status: NEW
+* Successfully accepted by Binance Futures Testnet
+
+### LIMIT Order Test
+
+Command:
+
+python -m bot.cli --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 150000
+
+Result:
+
+* Order ID: 13711014809
+* Status: NEW
+* Successfully accepted by Binance Futures Testnet
+
+These tests confirm successful authentication, request signing, order submission, and communication with the Binance Futures Testnet API.
