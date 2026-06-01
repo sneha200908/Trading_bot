@@ -1,0 +1,11 @@
+# ──────────────────────────────────────────────────────────────
+# Python Dependencies — Binance Futures Trading Bot
+# ──────────────────────────────────────────────────────────────
+# Install with:  pip install -r requirements.txt
+# ──────────────────────────────────────────────────────────────
+
+# HTTP client for Binance API communication
+requests>=2.31.0,<3.0.0
+
+# Load environment variables from .env file
+python-dotenv>=1.0.0,<2.0.0
